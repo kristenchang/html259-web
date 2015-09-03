@@ -186,72 +186,7 @@ ul li a:hover {
 
 }
 
-h1 {
-    font-size: 300%;
-}
 
-.link{font-size: 200%;
-font-weight:bolder;
-}
-
-a.button {
-    background-color: #4881CE;
-    position: relative;
-    color: white;
-    height: 3%;
-    float: left;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px;
-}
-
-a.button1 {
-    background-color: white;
-    position: relative;
-    color: #333333;
-    height: 3%;
-    float: left;
-    border-radius: 5px;
-    border: 1px solid #333333;
-    padding: 10px;
-}
-
-a.button:hover {
-    background-color: #489BCE;
-}
-
-a.button {
-    color: white;
-    text-decoration: none;
-}
-
-a.button:active {
-    background-color: #3763AA;
-}
-
-a.button1:hover {
-    background-color: #cfcfcf;
-}
-
-a.button1 {
-    color: #333333;
-    text-decoration: none;
-}
-
-a.button1:active {
-    background-color: #bdbdbd;
-}
-
-.latest {
-    border: white  solid 1px;
-  
-
-    color: #333333;
-    border-radius: 3px;
-    margin:0% 4% 2% 4%;
-    padding: 2%;
-
-}
 
 
 .footer {

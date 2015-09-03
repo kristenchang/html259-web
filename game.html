@@ -1,0 +1,66 @@
+<!doctype.<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>HTML 259</title>
+    <link href='https://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="game.css">
+    <script type="text/javascript" src="matchman/practicejs.js"></script>
+    <script type="text/javascript" src="guessNumb.js"></script>
+</head>
+
+<body>
+    <video autoplay poster="MP4/Sky-High.jpg" width="100%" id="bgvid" loop>
+        <source src="MP4/Sky-High.mp4" type="video/mp4">
+    </video>
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Link</a></li>
+            <li><a href="#game">Game</a></li>
+            <li><a href="resume.html">About Me</a></li>
+        </ul>
+    </div>
+    <div class="col-md-11 col-sm-11 col-xs-11 container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12 welcome">
+                <h1>Game</h1>
+                <a href="#game1" class="button1">火柴人大冒險</a>
+                <a href="#game2" class="button1">猜數字</a>
+
+            </div>
+        </div>
+        <hr>
+        <div id="game1"></div>
+        <div class="col-md-12 col-sm-12 col-xs-12 link">火柴人大冒險</div>
+        
+        <div class="col-md-12 col-sm-12 col-xs-12 game">
+        <div class="gamescene">
+            <img id="sceneimg" src="scene0.png">
+            <h3>Choose</h3>
+            <button type="button" id="decision1" value="1" onclick="changeScene(1)">1</button>
+            <button type="button" ID="decision2" value="2" onclick="changeScene(2)">2</button>
+             </div>
+        </div>
+
+                
+        <div id="game2"></div>
+        <div class="col-md-12 col-sm-12 col-xs-12 link">猜數字</div>
+        
+        <div class="col-md-12 col-sm-12 col-xs-12 game">
+        <div class="gamescene">
+            <label for="guessNumb">
+			請輸入四位不重覆的數字：<input name="guess" id="guess">
+			</label>
+            <button type="button" ID="run" value="2" onclick="run()">還不能玩</button>
+             </div>
+        </div>
+    
+    
+    <div class="footer">
+        <p>Copyright Your Website 2014</p>
+    </div>
+    </div>
+</body>
+
+</html>
