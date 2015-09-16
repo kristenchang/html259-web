@@ -1,0 +1,102 @@
+/*!
+ * Start Bootstrap - Small Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 70px;
+    /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+}
+
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+.navbar , .nav{    position: fixed;
+top:0px;
+left:0px;
+z-index: 10;}
+
+footer {
+    margin: 50px 0;
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 100px;
+        /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+
+
+
+/*    .navbar-fixed-top .navbar-brand {
+        padding: 5px;
+        height: 7px;
+        box-sizing: border-box;
+    }
+}
+
+.nav {height: 8%;
+background-color:#2f2c2d;
+position: fixed;
+top:0px;
+left:0px;
+z-index: 10;}
+*/
+
+#logopng {
+    height: 100%;
+    float: left;
+    padding-left: 0%;
+    margin: 0px
+}
+
+
+/*ul li.pageitem,ul li.dropdown-item {
+    float: left;
+    display: block;
+    width: 150px;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 13px;
+    margin: 0px;
+
+}
+
+.dropdown-menu{display:none;}
+
+.dropdown-menu a{background-color:#2f2c2d;
+}
+
+ul.dropdown-menu a:hover{background-color:grey;
+}
+
+li.dropdown-item {background-color: black;}
+li.dropdown-item:active .dropdown-menu{display: block;}
+
+ul li a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+ul li a {
+    color:#EBE6FA;
+    text-decoration: none;
+}
+
+*/
+
+h1,
+p,
+ul {
+    font-family: 微軟正黑體;
+}

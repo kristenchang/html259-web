@@ -1,0 +1,61 @@
+/*!
+ * Start Bootstrap - Shop Item HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body{font-family: 微軟正黑體;}
+
+h3{margin-top: 10px;}
+
+h4+p{padding-bottom: 16px;}
+
+
+.thumbnail img {
+    width: 100%;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+.list-group-item.active{background-color: #D94B2B;
+border-color: #D94B2B;}
+
+.list-group-item.active:hover{background-color: #D94B2B;
+	border-color: #D94B2B;
+}
+
+.list-group-item.thismonth{background-color: #F2B138;
+border-color: #F2B138;
+color:#2F2A34;}
+
+.list-group-item.thismonth:hover{background-color: #F2C438;
+	border-color: #F2C438;}
+
+	.btn-success{margin:0 10px 20px;}
+
+
+footer {
+    margin: 50px 0;
+}
+
+.basicclass{background-color: #17A63B;
+color: #ffffff;}
+.highclass{background-color: #05A6A6;
+color:#ffffff;}
+
+.page-header2{color:#2f2c2d;
+	text-align: center;
+}
