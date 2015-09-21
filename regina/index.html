@@ -21,31 +21,81 @@
 </head>
 
 <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <a href="index.html"><img class="logo" src="img/system/logo.jpg" alt=""></a>
-        <div>
-            <ul class="nav navbar-nav">
-                <li class="pageitem"><a href="aboutme.html">關於我</a></li>
-                <li class="pageitem"><a href="class.html">課程介紹</a></li>
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">相簿 <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="album_student.html">學生作品</a></li>
-                        <li><a href="album_teacher.html">老師作品</a></li>
-                        <li><a href="album_classroom.html">上課環境</a></li>
-                    </ul>
-                </li>
-                <li><a href="contact.html">聯絡我</a></li>
-            </ul>
+     <!-- Navigation -->
+    <nav class="navbar navbar-default navbar1">
+        <!-- Nav Image -->
+        <a href="index.html"><img class="navlogo" src="img/system/biglogo.jpg"></a>
+        <!-- Navbar -->
+        <div class="container-fluid ">
+            <div class="navbar-header ">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse " id="myNavbar">
+                <ul class="nav navbar-nav menu">
+                    <li><a href="aboutme.html">關於我</a></li>
+                    <li><a href="class.html">課程介紹</a></li>
+                    <li><a href="album.html">相簿</a></li>
+                    <li><a href="contact.html">聯絡我</a></li>
+                </ul>
+            </div>
+            <!-- Nav Image -->
+
         </div>
+
     </nav>
+
+                <div class="navimg">
+                <a href="https://www.facebook.com/energy.trees" target="new"><img src="img/system/fb.png" alt="FB"></a>
+                <a href="http://regina5978.pixnet.net/blog" target="new"><img src="img/system/blog.png" alt "Blog"></a>
+            </div>
     <!-- Page Content -->
+    <!-- Heading Row -->
     <div class="container">
-        <!-- Heading Row -->
         <div class="row">
             <div class="col-md-8">
-                <img class="page-header img-responsive img-rounded" src="img/system/main.jpg" alt="">
+                <!--原版圖片<img class="page-header img-responsive img-rounded" src="img/system/main.jpg" alt="">-->
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="img/system/main01.jpg" alt="">
+                            <div class="carousel-caption">
+                                ...
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img/system/main02.jpg" alt="">
+                            <div class="carousel-caption">
+                                ...
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img/system/main01.jpg" alt="">
+                            <div class="carousel-caption">
+                                ...
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
             </div>
             <!-- /.col-md-8 -->
             <div class="col-md-4">
@@ -71,8 +121,8 @@
         <!-- Content Row -->
         <div class="row">
             <div class="col-md-4">
-                <h2>粉蠟筆入門課</h2>
-                <p>全新策劃讓首次畫蠟筆，無繪圖基礎的學員設計課程，只要有畫畫興趣的朋友都適合，一圓畫畫的夢，跟著我們用手繪畫下回憶!</p>
+                <h2>額滿課程<span class="label label-danger">News!</span></h2>
+                <p>本期研修A班與研修B班都已額滿！有興趣的同學要請等下次開班，請多多注意我們開課的時間哦！</p>
                 <a class="btn btn-default" href="class.html">More Info</a>
             </div>
             <!-- /.col-md-4 -->
@@ -80,6 +130,8 @@
                 <h2>初階作品設計</h2>
                 <p>合第一次使用油粉彩(粉蠟筆)或無繪圖基礎的學員設計只要有畫畫興趣的朋友都適合。</p>
                 <a class="btn btn-default" href="#">More Info</a>
+
+                <div id="fb-root"></div><script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.3";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script><div class="fb-post" data-href="https://www.facebook.com/energy.trees/posts/889961417745914" data-width="500"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/energy.trees/posts/889961417745914">Posted by <a href="https://www.facebook.com/energy.trees">能量樹畫室.來自小樹的能量</a> on&nbsp;<a href="https://www.facebook.com/energy.trees/posts/889961417745914">2015年8月12日</a></blockquote></div></div>
             </div>
             <!-- /.col-md-4 -->
             <div class="col-md-4">

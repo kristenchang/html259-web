@@ -5,49 +5,58 @@
  */
 
 body {
-    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    padding-top: 0%; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
     font-family: 微軟正黑體;
+   
+}
+
+.container{padding-top: 3%;
 }
 
 
 
-/*.navbar-fixed-top{box-sizing:border-box;}
-
-.navbar.navbar-inverse{
-height: 9%;}
-*/
-
-.nav.navbar-nav{ margin-left: 2%;
-
-position: relative;
-font-size: 1.1em;
-
+.navlogo{
+left:0px;
+float: left;
+height: 70px;
 }
 
-
-
-.navbar.navbar-inverse{height:8% ;
-border-width: 1px 0 1px 0;}
-
-.logo{
-    height: 100%;
-     float: left;
+.navimg {
+position: absolute;
+right:1%;
+top:15px;
+z-index: 50;
 }
 
+.navimg img{height: 40px;
+padding-left: 5px;}
 
+.navbar1{
+
+    background-color: rgb(245,245,245);
+}
+
+.menu{
+padding:1% 0 0 3%;
+font-size: 1.2em;
+letter-spacing: 1px;
+}
+
+.menu a{color: black;}
 
 footer {
     padding: 30px 0;
 }
 
-@media(min-width:768px) {
+/*@media(min-width:768px) {
     body {
         padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
-    }
+/*   }
 
 
     .navbar-fixed-top .navbar-brand {
         padding: 15px 0;
+        
     }
 
 }
