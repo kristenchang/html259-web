@@ -23,24 +23,36 @@
 
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <a href="index.html"><img class="logo" src="img/system/logo.jpg" alt=""></a>
-        <div>
-            <ul class="nav navbar-nav">
-                <li class="pageitem"><a href="aboutme.html">關於我</a></li>
-                <li class="pageitem"><a href="class.html">課程介紹</a></li>
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">相簿 <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="album_student.html">學生作品</a></li>
-                        <li><a href="album_teacher.html">老師作品</a></li>
-                        <li><a href="album_classroom.html">上課環境</a></li>
-                    </ul>
-                </li>
-                <li><a href="contact.html">聯絡我</a></li>
-            </ul>
+           <nav class="navbar navbar-default navbar1">
+        <!-- Nav Image -->
+        <a href="index.html"><img class="navlogo" src="img/system/biglogo.jpg"></a>
+        <!-- Navbar -->
+        <div class="container-fluid ">
+            <div class="navbar-header ">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse " id="myNavbar">
+                <ul class="nav navbar-nav menu">
+                    <li><a href="aboutme.html">關於我</a></li>
+                    <li><a href="class.html">課程介紹</a></li>
+                    <li><a href="album.html">相簿</a></li>
+                    <li><a href="contact.html">聯絡我</a></li>
+                </ul>
+            </div>
+            <!-- Nav Image -->
+
         </div>
+
     </nav>
+
+                <div class="navimg">
+                <a href="#"><img src="img/system/fb.png" alt="FB"></a>
+                <a href="#"><img src="img/system/blog.png" alt "Blog"></a>
+            </div>
     <!-- Page Content -->
     <div class="container">
         <div class="row">
@@ -76,7 +88,7 @@
                             <span class="glyphicon glyphicon-star-empty"></span> 適合技巧較純熟
                         </p>
                         <div class="text-right">
-                            <a class="btn btn-success">立刻報名</a>
+                            <a href="register.html" class="btn btn-success">立刻報名</a>
                         </div>
                     </div>
                 </div>
