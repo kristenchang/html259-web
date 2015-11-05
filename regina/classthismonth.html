@@ -23,33 +23,35 @@
 
 <body>
     <!-- Navigation -->
-           <nav class="navbar navbar-default navbar1">
-    <!-- Nav Image -->
-    <a href="index.html"><img class="navlogo" src="img/system/biglogo.jpg"></a>
-    <!-- Navbar -->
-    <div class="container-fluid ">
-        <div class="navbar-header ">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-        </div>
-        <div class="collapse navbar-collapse " id="myNavbar">
-            <ul class="nav navbar-nav menu">
-                <li><a href="aboutme.html">關於我</a></li>
-                <li><a href="class.html">課程介紹</a></li>
-                <li><a href="album.html">相簿</a></li>
-                <li><a href="contact.html">聯絡我</a></li>
-            </ul>
-        </div>
+    <nav class="navbar navbar-default navbar1">
         <!-- Nav Image -->
+        <a href="index.html"><img class="navlogo" src="img/system/biglogo.jpg"></a>
+        <!-- Navbar -->
+        <div class="container-fluid ">
+            <div class="navbar-header ">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse " id="myNavbar">
+                <ul class="nav navbar-nav menu">
+                    <li><a href="aboutme.html">關於能量樹</a></li>
+                    <li><a href="class.html">課程介紹</a></li>
+                    <li><a href="album.html">相簿</a></li>
+                    <li><a href="contact.html">聯絡我</a></li>
+                    <li class="divider"></li>
+                    <li id="spc"><a href="register.html">我想報名</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Nav Image -->
+    <div class="navimg">
+        <a href="#"><img src="img/system/fb.png" alt="FB"></a>
+        <a href="#"><img src="img/system/blog.png" alt "Blog"></a>
     </div>
-</nav>
-<div class="navimg">
-    <a href="#"><img src="img/system/fb.png" alt="FB"></a>
-    <a href="#"><img src="img/system/blog.png" alt "Blog"></a>
-</div>
     <!-- Page Content -->
     <div class="container">
         <div class="row">
@@ -68,17 +70,16 @@
             <!--Table -->
             <div class="col-md-9">
                 <h2 class="text-center ">9月課表</h2>
-                    
                 <table class="table table-bordered">
                     <thead>
                         <tr>
-                            <th>Time</th>
-                            <th>Monday</th>
-                            <th>Tuesday</th>
-                            <th>Wendsday</th>
-                            <th>Thursday</th>
-                            <th>Friday</th>
-                            <th>Saturday</th>
+                            <th>時間</th>
+                            <th>星期一</th>
+                            <th>星期二</th>
+                            <th>星期三</th>
+                            <th>星期四</th>
+                            <th>星期五</th>
+                            <th>星期六</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -89,15 +90,18 @@
                             <td></td>
                             <td></td>
                             <td></td>
-                            <td class="highclass">研修B班<br>(額滿)</td>
+                            <td class="highclass">研修B班
+                                <br>(額滿)</td>
                         </tr>
                         <tr>
                             <td>14:30-16:30</td>
                             <td>高階課程</td>
                             <td>中階課程</td>
-                            <td class="basicclass">入門課程<br class="basicclass">初階課程</td>
+                            <td class="basicclass">入門課程
+                                <br class="basicclass">初階課程</td>
                             <td>中階課程</td>
-                            <td class="basicclass">入門課程<br class="basicclass">初階課程</td>
+                            <td class="basicclass">入門課程
+                                <br class="basicclass">初階課程</td>
                             <td>主題活動課程</td>
                         </tr>
                         <tr>
@@ -105,12 +109,19 @@
                             <td>高階課程</td>
                             <td>中階課程</td>
                             <td class="highclass">研修C班</td>
-                            <td class="highclass">研修A班<br>(額滿)</td>
-                            <td class="basicclass">入門課程<br class="basicclass">初階課程</td>
+                            <td class="highclass">研修A班
+                                <br>(額滿)</td>
+                            <td class="basicclass">入門課程
+                                <br class="basicclass">初階課程</td>
                             <td></td>
                         </tr>
                     </tbody>
                 </table>
+                <p class="addition">
+                    上課教室：
+                    <br> 星期一至星期三-松山教室
+                    <br> 星期四至星期六-新店教室
+                </p>
             </div>
         </div>
     </div>

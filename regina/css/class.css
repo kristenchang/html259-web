@@ -4,8 +4,6 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-body{font-family: 微軟正黑體;}
-
 h3{margin-top: 10px;}
 
 h4+p{padding-bottom: 16px;}
@@ -19,7 +17,7 @@ h4+p{padding-bottom: 16px;}
 }
 
 .thumbnail {
-    padding: 0;
+    padding: 10px;
 }
 
 .thumbnail .caption-full {
@@ -43,12 +41,14 @@ color:#2F2A34;}
 
 	.btn-success{margin:0 10px 20px;}
 
+.addition{color:#D94B2B;
+font-weight: bolder;}
 
 footer {
     margin: 50px 0;
 }
 
-.basicclass{background-color: #17A63B;
+.basicclass {background-color: #17A63B;
 color: #ffffff;}
 .highclass{background-color: #05A6A6;
 color:#ffffff;}

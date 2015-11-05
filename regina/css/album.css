@@ -3,25 +3,23 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-        
-        body {
-            padding-top: 70px;
-            /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-        }
+
         
         .portfolio-item {
             margin-bottom: 25px;
         }
         
     
-        
+        .panel-danger>.panel-heading,
+        .panel-danger>.panel-heading>a,
         .list-group-item.active,       
         .list-group-item.active:hover {
             background-color: #D94B2B;
             border-color: #D94B2B;
+            color:white;
         }
         
-
+.testimg{vertical-align: center;}
 
 .pagination>li>a{color:#05A6A6;}
 
