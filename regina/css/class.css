@@ -41,8 +41,11 @@ color:#2F2A34;}
 
 	.btn-success{margin:0 10px 20px;}
 
-.addition{color:#D94B2B;
-font-weight: bolder;}
+.addition {color:#D94B2B;
+font-weight: bolder;
+}
+
+
 
 footer {
     margin: 50px 0;
@@ -52,4 +55,6 @@ footer {
 color: #ffffff;}
 .highclass{background-color: #05A6A6;
 color:#ffffff;}
+.full {background-color: #f6846a;
+color: #ffffff;}
 
