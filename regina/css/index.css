@@ -60,9 +60,14 @@ footer {
     background-color:
 }
 
+/*.test111{background-color: red;
+height: 30px;
+float: left;}*/
+
+#googlemap2{padding-left: 0;}
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
     .navimg img{display: none;}
 }
 
